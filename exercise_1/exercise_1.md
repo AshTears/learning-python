@@ -1,4 +1,6 @@
 ### Stock Transaction Program
+# Demonstrates variables and operators
+
 Last month Joe purchased some stock in Acme Software, Inc. Here are the details of the purchase:
 * The number of shares that Joe purchased was 1,000
 * When Joe purchased the stock, he paid $32.87 per share.

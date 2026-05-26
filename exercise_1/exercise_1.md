@@ -1,5 +1,5 @@
-### Stock Transaction Program
-# Demonstrates variables and operators
+# Stock Transaction Program
+### Demonstrates variables and operators
 
 Last month Joe purchased some stock in Acme Software, Inc. Here are the details of the purchase:
 * The number of shares that Joe purchased was 1,000

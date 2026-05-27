@@ -17,3 +17,7 @@ match no_of_books:
         points = 75
 
 print("You are awarded", points, "points.")
+
+# Extra
+if points >= 75:
+    print("You will receive a 10% discount on your next purchase.")

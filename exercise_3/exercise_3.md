@@ -7,7 +7,7 @@ based only on income from wages and tips, as reported on a U.S. W-2 form.
 
 # 2020 Tax Rates
 ---------------------------------------------------------------------
-**Rate**                **Income for Single Individuals**
+**Rate**\t                **Income for Single Individuals**
 ---------------------------------------------------------------------
 10%                     Up to $9,875
 12%                     $9,876 to $40,125

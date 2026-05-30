@@ -27,7 +27,7 @@ for num in range(num_years):    # Outer loop counting the years
 # Display the results
 print("Total number of months recorded:", total_months)
 print("Total inches of rainfall:", total_rainfall)
-print("Average rainfall per month:", round(total_rainfall / total_months, 2))
+print("Average rainfall per month(inches):", round(total_rainfall / total_months, 2))
 
 
 

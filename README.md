@@ -8,3 +8,6 @@ This exercise demonstrates decision structures, specifically the 'match' stateme
 
 ### Exercise 3
 A simple project putting together all the aspects learned from the previous exercises.
+
+### Exercise 4
+An exercise demonstrating loops

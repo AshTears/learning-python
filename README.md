@@ -11,3 +11,9 @@ A simple project putting together all the aspects learned from the previous exer
 
 ### Exercise 4
 An exercise demonstrating loops
+
+### Exercise 5
+A program demonstrating the usage of lists
+
+### Exercise 6
+This exercise checks my knowledge of tuples

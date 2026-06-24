@@ -1,4 +1,12 @@
 # Dictionary
+old_car = {
+    "brand": "Subaru",
+    "model": "Impreza",
+    "year": 2012,
+    "color": "blue",
+    "modded": False
+}
+
 my_car = {
     "brand": "Subaru",
     "model": "Impreza",
@@ -7,19 +15,32 @@ my_car = {
     "modded": False
 }
 
+
 keep_going = "yes"
 
 while (keep_going != "quit"):
     user_key = input("Enter a value: ")
-    options = input("update or remove: ")
-    if options.lower() == "remove":
-        if user_key in my_car.keys():
+    if user_key in my_car.keys():
+        option = input("update or remove: ")
+        if option == "update":
+            new_value = input("Enter the new value: ")
+            my_car[user_key] = new_value
+            print(my_car)
+        elif option == "remove":
             my_car.pop(user_key)
             print(my_car)
         else:
-            print("That is a new key.")
-            user_value = input("Enter a matching value: ")
-            my_car.update({user_key:user_value})
-            print(my_car)
-    
+            keep_going = "quit"
+    else:
+        print("That is a new key.")
+        user_value = input("Enter a matching value: ")
+        my_car.update({user_key:user_value})
+        print(my_car)
+    print("Do you want to perform another operation? 'yes' or 'quit'")
+    keep_going = input()
+
+# Display the info
+print("Original dictionary:", old_car)
+print("Updated dictionary: ", my_car)      # updated dictionary
+
 
